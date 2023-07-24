@@ -11,7 +11,7 @@
     "build": "serverless package --package ./dist --config ./serverless.ts",
     "deploy": "serverless deploy --config ./serverless.ts --verbose",
     "remove": "serverless remove --verbose",
-    "invoke:local": "serverless invoke local -f hello",
+    "invoke:local": "serverless invoke local -f",
     "lint": "eslint --cache **/*.ts",
     "lint:fix": "eslint --fix **/*.ts",
     "lint:static-analysis": "eslint . **/*.ts",

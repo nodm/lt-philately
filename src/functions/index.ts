@@ -1,3 +1,3 @@
 /* istanbul ignore file */
 
-export { default as hello } from './hello';
+export { default as getProductUpdates } from './getProductUpdates';
